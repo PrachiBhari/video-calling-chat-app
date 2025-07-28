@@ -1,55 +1,35 @@
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
+# 💬 Fullstack Chat & Video Calling App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-Highlights:
-
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
+A basic full-stack chat and video calling application with authentication and real-time features. Users can chat in real time, make video calls, and manage their profiles. Built using React, Node.js, and MongoDB.
 
 ---
 
-## 🧪 .env Setup
+## ✨ Features
 
-### Backend (`/backend`)
-
-```
-PORT=5001
-MONGO_URI=your_mongo_uri
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
-JWT_SECRET_KEY=your_jwt_secret
-NODE_ENV=development
-```
-
-### Frontend (`/frontend`)
-
-```
-VITE_STREAM_API_KEY=your_stream_api_key
-```
+- 🔐 User authentication with JWT
+- 💬 Real-time chat with typing indicators and reactions
+- 📹 1-on-1 and group video calls with screen sharing
+- 🎨 Multiple UI themes
+- ⚙️ Protected routes and onboarding
+- 🌐 Language exchange interface
+- 💾 MongoDB for data storage
 
 ---
 
-## 🔧 Run the Backend
+## 🛠️ Tech Stack
 
-```bash
-cd backend
-npm install
-npm run dev
-```
+**Frontend:**
+- React
+- Tailwind CSS
+- Zustand (state management)
+- TanStack Query (React Query)
 
-## 💻 Run the Frontend
+**Backend:**
+- Node.js
+- Express
+- MongoDB
+- JWT (auth)
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+**APIs & Services:**
+- [Stream](https://getstream.io/) (for chat and video functionality)
+
